@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Curso de Maquigem On-line</h1>
+        <h3 id="subtitulo">Curso gratuito com certificação</h3>
+        <br>
+    </div>
+
+    <form>
+        <div class= "campo"> 
+            <label for ="nome">Nome</label>
+            <input type = "text" name = "nome" id = "nome" placeholder="Digite seu nome completo" required>
+        </div>
+        <div class= "campo">
+            <label for = "email">Email</label>
+            <input type = "email" name = "email" id = "email" placeholder="Digite seu email" required
+            placeholder="Digite seu email"
+            onblur="Validate.isEmail(this)">
+        </div>
+        <div class= "campo">
+            <label for = "mensagem">Mensagem</label>
+            <input type = "text" name = "mensagem" id = "mensagem" placeholder="Digite sua mensagem" required>
+        </div>
+        <div class= "campo">
+            <label for = "mensagem">CEP</label>
+            <input type = "text" name = "cep" id = "mensagem" placeholder="99999-999" required
+            onkeyup="Mask.cep(this)"
+            onblur="Validate.isCEP(this)">
+        </div>
+        <button class="botao" type = "submit">ENVIAR</button>
+    </form>
+
+    <footer>
+        <p>Desenvolvido pela empresa Auto Maqui On-line <br>
+        joseane.brilhante@academico.ifpb.edu.br <br>(83)999517918</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
