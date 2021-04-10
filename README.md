@@ -1,7 +1,7 @@
 # Primeiro Repositório
-## Descrição:
+## :clipboard: Descrição:
 * Criação de uma página HTML com o cabeçalho, rodapé e formulário;
 * Aplicação de CSS e JAVASCRIPT;
 * Testando repositório remoto.
-## Contribuição:
+## :memo: Contribuição:
 Joseane Brilhante
